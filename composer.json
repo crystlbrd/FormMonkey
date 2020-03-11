@@ -1,0 +1,17 @@
+{
+  "name": "crystlbrd/formmonkey",
+  "description": "PHP library to create, validate and process HTML forms",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "crystlbrd",
+      "email": "crystlbrd@bitkov.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "crystlbrd\\FormMonkey\\": "src/"
+    }
+  }
+}
