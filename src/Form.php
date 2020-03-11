@@ -55,9 +55,10 @@ class Form
     {
         $namespace = '\\crystlbrd\\FormMonkey\\Input\\';
         $className = ucfirst($type) . 'Input';
+        $classIdent = $namespace . $className;
 
-        if (class_exists($namespace . $className)) {
-            return new $className($name, $options);
+        if (class_exists($classIdent)) {
+            return new $classIdent($name, $options);
         } else {
             throw new FormException('Invalid input type "' . $type . '"!');
         }

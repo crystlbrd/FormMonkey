@@ -14,7 +14,15 @@
       "crystlbrd\\FormMonkey\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "crystlbrd\\FormMonkey\\Test\\": "test/"
+    }
+  },
   "require": {
     "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.0.1"
   }
 }
